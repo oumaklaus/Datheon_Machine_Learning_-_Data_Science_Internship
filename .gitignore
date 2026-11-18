@@ -1,0 +1,10 @@
+# Generated datasets (downloaded by the notebooks)
+iris.csv
+housing.csv
+churn.csv
+
+# Jupyter / Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
