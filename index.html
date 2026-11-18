@@ -96,7 +96,7 @@
 
   <div class="toolbar">
     <input id="search" class="search" type="search" placeholder="Search tasks, tools, concepts…" aria-label="Search tasks">
-    <button class="btn" id="toggleAll" type="button">Expand all</button>
+    <button class="btn" id="toggleAll" type="button">Collapse all</button>
     <button class="btn" id="printBtn" type="button">Print / PDF</button>
     <div class="progress" aria-live="polite">
       <span id="progressText">0 / 4 revised</span>
@@ -120,7 +120,7 @@
         </label>
       </div>
       <div class="brief">Implement a supervised classification model on the Iris or Wine dataset. Handle feature scaling (StandardScaler), train/test dataset splitting (80/20), train Logistic Regression and Decision Tree models, and benchmark classification accuracy, precision, recall, and F1-score.</div>
-      <details>
+      <details open>
         <summary>Full requirements &amp; approach</summary>
         <div class="detail-grid">
           <div>
@@ -154,7 +154,7 @@
         </label>
       </div>
       <div class="brief">Predict median house values using the California Housing dataset. Engineer interaction features, impute missing values, handle multicollinearity, and compare Ordinary Least Squares (OLS), Ridge (L2), and Lasso (L1) regression models based on RMSE, MAE, and R² scores.</div>
-      <details>
+      <details open>
         <summary>Full requirements &amp; approach</summary>
         <div class="detail-grid">
           <div>
@@ -188,7 +188,7 @@
         </label>
       </div>
       <div class="brief">Train an ensemble machine learning model to predict customer churn using telecom subscription records. Preprocess categorical features using OneHotEncoder, balance class distributions with SMOTE or class weighting, train Random Forest and XGBoost classifiers, and evaluate ROC-AUC curve (&gt;80%).</div>
-      <details>
+      <details open>
         <summary>Full requirements &amp; approach</summary>
         <div class="detail-grid">
           <div>
@@ -222,7 +222,7 @@
         </label>
       </div>
       <div class="brief">Construct a natural language processing text classifier. Ingest customer product or movie review records, clean and tokenize text (lowercasing, stopword removal, lemmatization), transform text into numerical TF-IDF feature matrices, and train a Multinomial Naive Bayes classifier to identify positive and negative sentiment.</div>
-      <details>
+      <details open>
         <summary>Full requirements &amp; approach</summary>
         <div class="detail-grid">
           <div>
@@ -279,7 +279,7 @@
   });
   refresh();
 
-  var allOpen = false;
+  var allOpen = true;
   document.getElementById('toggleAll').addEventListener('click', function (e) {
     allOpen = !allOpen;
     document.querySelectorAll('#taskList details').forEach(function (d) { d.open = allOpen; });
