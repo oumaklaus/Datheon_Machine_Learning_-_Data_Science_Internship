@@ -11,7 +11,7 @@ Datheon_Machine_Learning_-_Data_Science_Internship/
 ├── Telco_Churn_Pipeline.ipynb                  # Task 3 - Customer churn classification
 ├── Sentiment_Reviews_Pipeline.ipynb            # Task 4 - NLP sentiment classification
 ├── sentiment_reviews.csv                        # Labelled starter data for Task 4
-├── tasks.html                                   # Offline revision page with all program tasks
+├── index.html                                   # Program tasks revision page (Pages homepage)
 ├── requirements.txt                             # Python dependencies
 └── README.md
 ```
@@ -31,13 +31,13 @@ Each notebook includes evaluation metrics, visual diagnostics (confusion matrice
 
 ## Program tasks revision page
 
-[`tasks.html`](tasks.html) is a self-contained revision page capturing the Datheon ML/Data Science program task catalogue: objectives, descriptions, suggested approaches, tools, datasets, expected outputs, and links to each notebook. It includes search, expand/collapse, print/PDF support, and a "Revised" checklist saved in your browser.
+[`index.html`](index.html) is a self-contained revision page capturing the Datheon ML/Data Science program task catalogue: objectives, descriptions, suggested approaches, tools, datasets, expected outputs, and links to each notebook. It includes search, expand/collapse, print/PDF support, and a "Revised" checklist saved in your browser.
 
-Open it locally by downloading the file, or enable GitHub Pages (`Settings -> Pages -> Deploy from a branch -> main / root`) and visit:
+It is published as the GitHub Pages homepage:
 
-```
-https://oumaklaus.github.io/Datheon_Machine_Learning_-_Data_Science_Internship/tasks.html
-```
+**https://oumaklaus.github.io/Datheon_Machine_Learning_-_Data_Science_Internship/**
+
+You can also open `index.html` locally in any browser.
 
 ## Running the notebooks
 
